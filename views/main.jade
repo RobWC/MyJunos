@@ -1,0 +1,13 @@
+extends layout
+
+block append head
+  script(src="/socket.io/socket.io.js",type="text/javascript")
+  script(src="/javascripts/main.js",type="text/javascript")
+  link(href='http://fonts.googleapis.com/css?family=Bree+Serif',rel='stylesheet',type='text/css')
+
+block append body
+ div(id="tipbox", class="divBox")
+  div(id="tip", class="tip")
+    h1= tiptitle
+    p= junostip 
+ 
