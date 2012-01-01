@@ -1,7 +1,16 @@
-body {
+html, body {
   background: #6699CC;
+  height: 100%;
 }
-
+#mainContent {
+  min-height: 100%;
+  overflow: auto;
+}
+footer {
+  margin-top: -50px;
+  height: 50px;
+  clear: both;
+}
 .divBox {
   margin-top: 100px;
   width: 800px;
@@ -23,4 +32,41 @@ body {
   font-size: 30px;
   text-align: center;
   padding-top: 100px;
+}
+.custom-tweet-button a {
+  font-family: 'Bree Serif', serif;
+  width: 200px;
+  display: block;
+  padding: 2px 5px 2px 20px;
+  background: url('http://a4.twimg.com/images/favicon.ico') 1px center no-repeat;
+  background-color: #FFFFFF;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-box-shadow: 10px 10px 5px #777;
+  -webkit-box-shadow: 10px 10px 5px #777;
+  box-shadow: 5px 5px 2px #777;
+  text-decoration: none;
+  text-align: center;
+  text-color: black;
+}
+a:link { 
+  color: black;
+  text-decoration: none; 
+}
+a:visited { 
+  color: black; 
+  text-decoration: none; 
+} 
+a:hover { 
+  color: black; 
+} 
+ul {
+  list-style-type: none;
+  display: inline;
+}
+li {
+  float: left;
+  padding-left: 25px;
 }
