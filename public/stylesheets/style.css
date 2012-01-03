@@ -37,12 +37,12 @@ footer {
   box-shadow: 10px 10px 5px #444;
 }
 #pLogoText {
-  font-family:'Cousine', sans-serif;
-  font-size: 60px;
+  font-family:'Viga', sans-serif;
+  font-size: 55px;
   text-align: center;
 }
 #pLogoDescription {
-  font-family:'Cousine', sans-serif;
+  font-family:'Viga', sans-serif;
   text-align: center;
   font-size: 20px;
 }
@@ -68,7 +68,7 @@ footer {
   margin-top: 50px;
 } 
 .tip {
-  font-family: 'Cousine', sans-serif;
+  font-family: 'Viga', sans-serif;
   font-size: 30px;
   text-align: center;
   padding-top: 100px;
@@ -76,7 +76,7 @@ footer {
 .shadow {
 }
 .link-button a {
-  font-family: 'Cousine', sans-serif;
+  font-family: 'Viga', sans-serif;
   font-size: 17px;
   width: 250px;
   height: 32px;
@@ -97,7 +97,7 @@ footer {
   vertical-align: middle;
 }
 .custom-tweet-button a {
-  font-family: 'Cousine', sans-serif;
+  font-family: 'Viga', sans-serif;
   font-size: 17px;
   width: 250px;
   height: 32px;

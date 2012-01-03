@@ -40,7 +40,7 @@ app.get('/', function(req, res){
   });
 });
 
-app.listen(3000);
+app.listen(80);
 
 io.sockets.on('connection', function (socket) {
   socket.emit('news', { hello: 'world' });
