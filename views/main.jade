@@ -3,10 +3,21 @@ extends layout
 block append head
   script(src="/socket.io/socket.io.js",type="text/javascript")
   script(src="/javascripts/main.js",type="text/javascript")
-  link(href='http://fonts.googleapis.com/css?family=Bree+Serif',rel='stylesheet',type='text/css')
+  link(href='http://fonts.googleapis.com/css?family=Cousine:700',rel='stylesheet',type='text/css')
 
 block append body
   div(id="mainContent")
-    div(id="tipbox", class="divBox")
+    div(id="tipbox", class="divBox shadow")
       div(id="tip", class="tip")
         p= junostip
+    div(id="share", class="divShare shadow")
+     ul
+      li
+        div(id="tweet-button",class="custom-tweet-button shadow")
+          a(href="https://twitter.com/intent/tweet?screen_name=MyJunos",data-related="MyJunos",data-size="large") Share a tip to @MyJunos
+      li
+        div(id="tweet-button",class="custom-tweet-button shadow")
+          a(href="https://twitter.com/MyJunos",data-show-count="false",data-size="large") Follow @MyJunos
+      li
+        div(id="learn-more",class="link-button")
+          a(href="http://www.juniper.net/us/en/products-services/nos/junos/") Learn More About Junos

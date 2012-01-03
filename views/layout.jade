@@ -7,13 +7,9 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   block body
     header
+      div(id="divLogo",class="shadow")
+        p(id="pLogoText") MyJunos
+        p(id="pLogoDescription") Your Daily Junos Tips
     block content
   block footer
     footer
-      ul
-        li
-          div(id="tweet-button",class="custom-tweet-button")
-            a(href="https://twitter.com/intent/tweet?screen_name=MyJunos",class="twitter-mention-button",data-related="MyJunos") Share a tip to @MyJunos
-        li
-          div(id="tweet-button",class="custom-tweet-button")
-            a(href="https://twitter.com/MyJunos",class="twitter-follow-button",data-show-count="false",data-size="large") Follow @MyJunos
